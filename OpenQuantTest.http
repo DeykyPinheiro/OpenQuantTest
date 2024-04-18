@@ -1,0 +1,6 @@
+@OpenQuantTest_HostAddress = http://localhost:5134
+
+GET {{OpenQuantTest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
