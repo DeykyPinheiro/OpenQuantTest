@@ -14,8 +14,12 @@ namespace OpenQuantTest.Data
 
         public DbSet<UserModel> Users { get; set; }
 
+        
 
-        DbSet<TransactionModel> Transactions { get; set; }
+        public DbSet<AccountModel> Accounts { get; set; }
+
+
+        public DbSet<TransactionModel> Transactions { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

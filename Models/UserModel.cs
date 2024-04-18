@@ -17,14 +17,14 @@ namespace OpenQuantTest.Models
         public string Email { get; set; }
 
         [Required] 
-        public Account Account { get; set; }
+        public AccountModel Account { get; set; }
 
 
         public UserModel(string name, string email) 
         {
             Name = name;
             Email = email;
-            Account = new Account();
+            Account = new AccountModel();
         }
     }
 }

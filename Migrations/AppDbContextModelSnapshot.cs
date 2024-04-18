@@ -22,7 +22,7 @@ namespace OpenQuantTest.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("OpenQuantTest.Models.Account", b =>
+            modelBuilder.Entity("OpenQuantTest.Models.AccountModel", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -35,7 +35,7 @@ namespace OpenQuantTest.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Account");
+                    b.ToTable("Accounts");
                 });
 
             modelBuilder.Entity("OpenQuantTest.Models.TransactionModel", b =>
@@ -46,7 +46,7 @@ namespace OpenQuantTest.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<long?>("AccountId")
+                    b.Property<long?>("AccountModelId")
                         .HasColumnType("bigint");
 
                     b.Property<decimal>("Amount")
@@ -60,7 +60,7 @@ namespace OpenQuantTest.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("AccountId");
+                    b.HasIndex("AccountModelId");
 
                     b.HasIndex("PayerId");
 
@@ -97,15 +97,14 @@ namespace OpenQuantTest.Migrations
 
             modelBuilder.Entity("OpenQuantTest.Models.TransactionModel", b =>
                 {
-                    b.HasOne("OpenQuantTest.Models.Account", null)
+                    b.HasOne("OpenQuantTest.Models.AccountModel", null)
                         .WithMany("Transactions")
-                        .HasForeignKey("AccountId");
+                        .HasForeignKey("AccountModelId");
 
                     b.HasOne("OpenQuantTest.Models.UserModel", "Payer")
                         .WithMany()
                         .HasForeignKey("PayerId")
                         .OnDelete(DeleteBehavior.Cascade);
-
 
                     b.HasOne("OpenQuantTest.Models.UserModel", "Receiver")
                         .WithMany()
@@ -119,16 +118,15 @@ namespace OpenQuantTest.Migrations
 
             modelBuilder.Entity("OpenQuantTest.Models.UserModel", b =>
                 {
-                    b.HasOne("OpenQuantTest.Models.Account", "Account")
+                    b.HasOne("OpenQuantTest.Models.AccountModel", "Account")
                         .WithMany()
                         .HasForeignKey("AccountId")
                         .OnDelete(DeleteBehavior.Cascade);
-                        
 
                     b.Navigation("Account");
                 });
 
-            modelBuilder.Entity("OpenQuantTest.Models.Account", b =>
+            modelBuilder.Entity("OpenQuantTest.Models.AccountModel", b =>
                 {
                     b.Navigation("Transactions");
                 });

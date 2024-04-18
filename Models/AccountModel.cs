@@ -4,7 +4,7 @@ using System.Transactions;
 
 namespace OpenQuantTest.Models
 {
-    public class Account
+    public class AccountModel
     {
         [Key]
         [ForeignKey("User")]
@@ -14,7 +14,7 @@ namespace OpenQuantTest.Models
 
         public List<TransactionModel> Transactions { get; set; }
 
-        public Account()
+        public AccountModel()
         {
             Balance = 0;
             Transactions = new List<TransactionModel>();

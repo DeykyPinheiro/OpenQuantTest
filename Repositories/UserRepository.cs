@@ -14,7 +14,7 @@ namespace OpenQuantTest.Repositories
         public UserRepository(AppDbContext appDbContext) 
         {
             _dbContext = appDbContext;
-                }
+        }
 
         public async Task<List<UserModel>> FindAll()
         {

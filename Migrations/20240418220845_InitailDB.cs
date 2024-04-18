@@ -12,7 +12,7 @@ namespace OpenQuantTest.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Account",
+                name: "Accounts",
                 columns: table => new
                 {
                     Id = table.Column<long>(type: "bigint", nullable: false)
@@ -21,7 +21,7 @@ namespace OpenQuantTest.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Account", x => x.Id);
+                    table.PrimaryKey("PK_Accounts", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -38,9 +38,9 @@ namespace OpenQuantTest.Migrations
                 {
                     table.PrimaryKey("PK_Users", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Users_Account_AccountId",
+                        name: "FK_Users_Accounts_AccountId",
                         column: x => x.AccountId,
-                        principalTable: "Account",
+                        principalTable: "Accounts",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -54,15 +54,15 @@ namespace OpenQuantTest.Migrations
                     PayerId = table.Column<int>(type: "integer", nullable: false),
                     ReceiverId = table.Column<int>(type: "integer", nullable: false),
                     Amount = table.Column<decimal>(type: "numeric", nullable: false),
-                    AccountId = table.Column<long>(type: "bigint", nullable: true)
+                    AccountModelId = table.Column<long>(type: "bigint", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Transactions", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Transactions_Account_AccountId",
-                        column: x => x.AccountId,
-                        principalTable: "Account",
+                        name: "FK_Transactions_Accounts_AccountModelId",
+                        column: x => x.AccountModelId,
+                        principalTable: "Accounts",
                         principalColumn: "Id");
                     table.ForeignKey(
                         name: "FK_Transactions_Users_PayerId",
@@ -79,9 +79,9 @@ namespace OpenQuantTest.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Transactions_AccountId",
+                name: "IX_Transactions_AccountModelId",
                 table: "Transactions",
-                column: "AccountId");
+                column: "AccountModelId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Transactions_PayerId",
@@ -109,7 +109,7 @@ namespace OpenQuantTest.Migrations
                 name: "Users");
 
             migrationBuilder.DropTable(
-                name: "Account");
+                name: "Accounts");
         }
     }
 }
