@@ -1,16 +1,23 @@
-﻿using System.Transactions;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Transactions;
 
 namespace OpenQuantTest.Models
 {
     public class Account
     {
-
-        public int Id { get; set; }
+        [Key]
+        [ForeignKey("User")]
+        public long Id { get; set; }
 
         public decimal Balance { get; set; }
 
-        public List<Transaction> Transactions { get; set; }
+        public List<TransactionModel> Transactions { get; set; }
 
-
+        public Account()
+        {
+            Balance = 0;
+            Transactions = new List<TransactionModel>();
+        }
     }
 }

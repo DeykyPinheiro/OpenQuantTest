@@ -1,4 +1,9 @@
 
+using Microsoft.EntityFrameworkCore;
+using OpenQuantTest.Data;
+using OpenQuantTest.Repositories;
+using OpenQuantTest.Repositories.Interfaces;
+
 namespace OpenQuantTest
 {
     public class Program
@@ -13,6 +18,12 @@ namespace OpenQuantTest
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+
+            builder.Services.AddDbContext<AppDbContext>(options =>
+               options.UseNpgsql(builder.Configuration.GetConnectionString("DataBase")));
+
+            builder.Services.AddScoped<IUserRepository, UserRepository>();
 
             var app = builder.Build();
 

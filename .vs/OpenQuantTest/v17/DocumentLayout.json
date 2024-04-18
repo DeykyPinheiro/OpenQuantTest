@@ -11,12 +11,20 @@
       "RelativeMoniker": "D:0:0:{C713E3D6-47BF-42B0-AF47-F5FFE9220B65}|OpenQuantTest.csproj|solutionrelative:models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C713E3D6-47BF-42B0-AF47-F5FFE9220B65}|OpenQuantTest.csproj|c:\\users\\pinheiro\\_develop\\c#\\openquanttest\\models\\transactionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C713E3D6-47BF-42B0-AF47-F5FFE9220B65}|OpenQuantTest.csproj|solutionrelative:models\\transactionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C713E3D6-47BF-42B0-AF47-F5FFE9220B65}|OpenQuantTest.csproj|c:\\users\\pinheiro\\_develop\\c#\\openquanttest\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C713E3D6-47BF-42B0-AF47-F5FFE9220B65}|OpenQuantTest.csproj|solutionrelative:models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C713E3D6-47BF-42B0-AF47-F5FFE9220B65}|OpenQuantTest.csproj|c:\\users\\pinheiro\\_develop\\c#\\openquanttest\\migrations\\20240418203221_initaildb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C713E3D6-47BF-42B0-AF47-F5FFE9220B65}|OpenQuantTest.csproj|solutionrelative:migrations\\20240418203221_initaildb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C713E3D6-47BF-42B0-AF47-F5FFE9220B65}|OpenQuantTest.csproj|c:\\users\\pinheiro\\_develop\\c#\\openquanttest\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C713E3D6-47BF-42B0-AF47-F5FFE9220B65}|OpenQuantTest.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C713E3D6-47BF-42B0-AF47-F5FFE9220B65}|OpenQuantTest.csproj|c:\\users\\pinheiro\\_develop\\c#\\openquanttest\\models\\transactionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C713E3D6-47BF-42B0-AF47-F5FFE9220B65}|OpenQuantTest.csproj|solutionrelative:models\\transactionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,32 +34,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\pinheiro\\_develop\\c#\\OpenQuantTest\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\pinheiro\\_develop\\c#\\OpenQuantTest\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\pinheiro\\_develop\\c#\\OpenQuantTest\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\pinheiro\\_develop\\c#\\OpenQuantTest\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAwwFcAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T23:51:08.759Z",
+              "WhenOpened": "2024-04-18T20:35:14.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "20240418203221_InitailDB.cs",
+              "DocumentMoniker": "C:\\Users\\pinheiro\\_develop\\c#\\OpenQuantTest\\Migrations\\20240418203221_InitailDB.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240418203221_InitailDB.cs",
+              "ToolTip": "C:\\Users\\pinheiro\\_develop\\c#\\OpenQuantTest\\Migrations\\20240418203221_InitailDB.cs",
+              "RelativeToolTip": "Migrations\\20240418203221_InitailDB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T20:32:21.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "TransactionModel.cs",
               "DocumentMoniker": "C:\\Users\\pinheiro\\_develop\\c#\\OpenQuantTest\\Models\\TransactionModel.cs",
               "RelativeDocumentMoniker": "Models\\TransactionModel.cs",
               "ToolTip": "C:\\Users\\pinheiro\\_develop\\c#\\OpenQuantTest\\Models\\TransactionModel.cs",
               "RelativeToolTip": "Models\\TransactionModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T23:46:32.188Z",
+              "WhenOpened": "2024-04-18T20:21:22.321Z",
               "EditorCaption": ""
             },
             {
@@ -62,27 +83,36 @@
               "RelativeDocumentMoniker": "Models\\Account.cs",
               "ToolTip": "C:\\Users\\pinheiro\\_develop\\c#\\OpenQuantTest\\Models\\Account.cs",
               "RelativeToolTip": "Models\\Account.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T23:42:06.798Z",
+              "WhenOpened": "2024-04-18T20:14:06.78Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "UserModel.cs",
               "DocumentMoniker": "C:\\Users\\pinheiro\\_develop\\c#\\OpenQuantTest\\Models\\UserModel.cs",
               "RelativeDocumentMoniker": "Models\\UserModel.cs",
               "ToolTip": "C:\\Users\\pinheiro\\_develop\\c#\\OpenQuantTest\\Models\\UserModel.cs",
               "RelativeToolTip": "Models\\UserModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAWAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBoAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T23:38:53.631Z",
+              "WhenOpened": "2024-04-18T20:08:03.204Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\pinheiro\\_develop\\c#\\OpenQuantTest\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\pinheiro\\_develop\\c#\\OpenQuantTest\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAmwDQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T19:46:49.119Z",
+              "EditorCaption": ""
             }
           ]
         }
