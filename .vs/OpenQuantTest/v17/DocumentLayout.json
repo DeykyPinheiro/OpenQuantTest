@@ -86,8 +86,7 @@
               "RelativeToolTip": "Repositories\\Interfaces\\IAccountRepository.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T21:21:54.569Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T21:21:54.569Z"
             },
             {
               "$type": "Document",
@@ -99,8 +98,7 @@
               "RelativeToolTip": "Repositories\\AccountRepository.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAQwBcAAABSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T17:48:54.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-19T17:48:54.301Z"
             },
             {
               "$type": "Document",
@@ -112,8 +110,7 @@
               "RelativeToolTip": "Repositories\\UserRepository.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAIA9wB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T21:25:41.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T21:25:41.556Z"
             },
             {
               "$type": "Document",
@@ -123,7 +120,7 @@
               "RelativeDocumentMoniker": "Controllers\\TransactionController.cs",
               "ToolTip": "C:\\Users\\pinheiro\\_develop\\c#\\OpenQuantTest\\Controllers\\TransactionController.cs",
               "RelativeToolTip": "Controllers\\TransactionController.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAApwCkAAABNAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAIA5wCMAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-18T22:58:02.265Z",
               "EditorCaption": ""
@@ -138,8 +135,7 @@
               "RelativeToolTip": "Services\\TransactionService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T01:13:14.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-19T01:13:14.69Z"
             },
             {
               "$type": "Document",
@@ -151,8 +147,7 @@
               "RelativeToolTip": "Repositories\\Interfaces\\ITransactionRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T21:25:12.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T21:25:12.48Z"
             },
             {
               "$type": "Document",
@@ -164,8 +159,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAB0AAAAAAAAAAAAwwCwAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T22:42:00.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T22:42:00.559Z"
             },
             {
               "$type": "Document",
@@ -177,8 +171,7 @@
               "RelativeToolTip": "Repositories\\Interfaces\\IUserRepository.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAADgvw8AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T21:21:57.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T21:21:57.104Z"
             },
             {
               "$type": "Document",
@@ -190,8 +183,7 @@
               "RelativeToolTip": "Controllers\\AccountController.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAASwBIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T23:51:30.847Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T23:51:30.847Z"
             },
             {
               "$type": "Document",
@@ -203,8 +195,7 @@
               "RelativeToolTip": "Controllers\\UserController.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAApwCoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T19:46:49.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T19:46:49.119Z"
             },
             {
               "$type": "Document",
@@ -216,8 +207,7 @@
               "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
               "ViewState": "AQIAAEgAAAAAAAAAAIAwwFYAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T22:08:50.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T22:08:50.967Z"
             },
             {
               "$type": "Document",
@@ -229,8 +219,7 @@
               "RelativeToolTip": "Models\\TransactionModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T13:59:53.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-19T13:59:53.901Z"
             },
             {
               "$type": "Document",
@@ -242,8 +231,7 @@
               "RelativeToolTip": "Repositories\\TransactionRepository.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T21:30:05.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T21:30:05.837Z"
             },
             {
               "$type": "Document",
@@ -255,8 +243,7 @@
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAASwA8AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T21:31:39.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T21:31:39.859Z"
             },
             {
               "$type": "Document",
