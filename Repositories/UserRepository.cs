@@ -11,24 +11,28 @@ namespace OpenQuantTest.Repositories
 
         private readonly AppDbContext _dbContext;
 
-        public UserRepository(AppDbContext appDbContext) 
+        public UserRepository(AppDbContext appDbContext)
         {
             _dbContext = appDbContext;
         }
 
         public async Task<List<UserModel>> FindAll()
         {
-            return await _dbContext.Users.ToListAsync();
+            return await _dbContext.Users
+                            .Include(user => user.Account)
+                            .ToListAsync();
         }
 
         public async Task<UserModel> FindById(int id)
         {
-            return await _dbContext.Users.FirstOrDefaultAsync(u => u.Id == id);
-           
+            return await _dbContext.Users
+                 .Include(user => user.Account)
+                            .FirstOrDefaultAsync(u => u.Id == id);
+
         }
 
-      
-       
+
+
         public async Task<UserModel> Save(UserModel user)
         {
             await _dbContext.Users.AddAsync(user);

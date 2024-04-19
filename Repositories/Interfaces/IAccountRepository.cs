@@ -6,7 +6,6 @@ namespace OpenQuantTest.Repositories.Interfaces
     public interface IAccountRepository
     {
 
-
         Task<List<AccountModel>> FindAll();
 
         Task<AccountModel> FindById(int id);

@@ -11,6 +11,8 @@ namespace OpenQuantTest
     {
         public static void Main(string[] args)
         {
+            var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
@@ -34,6 +36,18 @@ namespace OpenQuantTest
 
             builder.Services.AddScoped<TransactionService>();
 
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy(name: MyAllowSpecificOrigins,
+                                  policy =>
+                                  {
+                                      policy.WithOrigins("*")
+                                            .AllowAnyHeader()
+                                            .AllowAnyMethod();
+                                  });
+            });
+
+
 
 
             var app = builder.Build();
@@ -48,6 +62,8 @@ namespace OpenQuantTest
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
+
+            app.UseCors(MyAllowSpecificOrigins);
 
 
             app.MapControllers();
