@@ -56,7 +56,7 @@ namespace OpenQuantTest.Repositories
             return userId;
         }
 
-        public async Task<bool> delete(int id)
+        public async Task delete(int id)
         {
             UserModel userId = await FindById(id);
 
@@ -67,9 +67,6 @@ namespace OpenQuantTest.Repositories
 
             _dbContext.Users.Remove(userId);
             _dbContext.SaveChanges();
-
-            return true;
-
         }
 
     }

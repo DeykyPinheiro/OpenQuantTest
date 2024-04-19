@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using OpenQuantTest.Data;
 using OpenQuantTest.Repositories;
 using OpenQuantTest.Repositories.Interfaces;
+using OpenQuantTest.Services;
 
 namespace OpenQuantTest
 {
@@ -28,6 +29,12 @@ namespace OpenQuantTest
             builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
 
             builder.Services.AddScoped<IAccountRepository, AccountRepository>();
+
+
+
+            builder.Services.AddScoped<TransactionService>();
+
+
 
             var app = builder.Build();
 

@@ -18,7 +18,18 @@ namespace OpenQuantTest.Repositories
         {
             return await _dbContext.Transactions
                              .Where(t => t.Payer.Id == id || t.Receiver.Id == id)
+                             .Include(t => t.Payer)
+                             .Include(t => t.Receiver)
                              .ToListAsync();
+        }
+
+        public async Task<TransactionModel> Save(TransactionModel transaction)
+        {
+
+            await _dbContext.Transactions.AddAsync(transaction);
+            await _dbContext.SaveChangesAsync();
+
+            return transaction;
         }
     }
 }

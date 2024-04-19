@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OpenQuantTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84f6de066bada2c0d36345f163967dc4527b5465")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c27b436d9e3dc926b7d27c708efa9559ed79d856")]
 [assembly: System.Reflection.AssemblyProductAttribute("OpenQuantTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OpenQuantTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

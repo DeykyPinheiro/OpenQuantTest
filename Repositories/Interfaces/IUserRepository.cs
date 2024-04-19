@@ -13,7 +13,7 @@ namespace OpenQuantTest.Repositories.Interfaces
 
         Task<UserModel> Update(int id , UserModel user);
 
-        Task<bool> delete(int id);
+        Task delete(int id);
 
     }
 }

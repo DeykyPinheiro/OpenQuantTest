@@ -19,8 +19,15 @@ namespace OpenQuantTest.Controllers
         [HttpGet]
         public async Task<ActionResult<List<AccountModel>>> FindAll()
         {
-           List<AccountModel> accounts = await _accountRepository.FindAll();
-           return Ok(accounts);
+            List<AccountModel> accounts = await _accountRepository.FindAll();
+            return Ok(accounts);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<AccountModel>> FindById(int id)
+        {
+            AccountModel account = await _accountRepository.FindById(id);
+            return Ok(account);
         }
     }
 }
