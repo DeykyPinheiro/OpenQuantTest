@@ -27,6 +27,8 @@ namespace OpenQuantTest
 
             builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
 
+            builder.Services.AddScoped<IAccountRepository, AccountRepository>();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

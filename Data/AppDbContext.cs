@@ -14,10 +14,7 @@ namespace OpenQuantTest.Data
 
         public DbSet<UserModel> Users { get; set; }
 
-        
-
         public DbSet<AccountModel> Accounts { get; set; }
-
 
         public DbSet<TransactionModel> Transactions { get; set; }
 

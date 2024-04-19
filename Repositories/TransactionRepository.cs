@@ -16,7 +16,9 @@ namespace OpenQuantTest.Repositories
 
         public async Task<List<TransactionModel>> FindAllTransactionsByAccountId(int id)
         {
-           return (List<TransactionModel>)_dbContext.Transactions.Where(t => t.Payer.Account.Id == id || t.Receiver.Account.Id == id);
+            return await _dbContext.Transactions
+                             .Where(t => t.Payer.Id == id || t.Receiver.Id == id)
+                             .ToListAsync();
         }
     }
 }

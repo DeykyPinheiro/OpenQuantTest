@@ -15,6 +15,5 @@ namespace OpenQuantTest.Repositories.Interfaces
 
         Task<bool> delete(int id);
 
-
     }
 }
